@@ -1,9 +1,9 @@
 # ty-pre-commit
 
 [![Ty](https://img.shields.io/pypi/v/ty.svg)](https://pypi.org/project/ty/)
-[![image](https://img.shields.io/pypi/v/ty/0.0.1a35.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/l/ty/0.0.1a35.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/pyversions/ty/0.0.1a35.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/v/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/l/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/pyversions/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
 [![Actions status](https://github.com/astral-sh/ty-pre-commit/workflows/main/badge.svg)](https://github.com/astral-sh/ty-pre-commit/actions)
 
 A [pre-commit](https://pre-commit.com/) hook for [Ty](https://github.com/astral-sh/ty), an extremely fast Python type checker written in Rust.
