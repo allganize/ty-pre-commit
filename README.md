@@ -1,9 +1,9 @@
 # ty-pre-commit
 
 [![Ty](https://img.shields.io/pypi/v/ty.svg)](https://pypi.org/project/ty/)
-[![image](https://img.shields.io/pypi/v/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/l/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/pyversions/ty/0.0.1.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/v/ty/0.0.2.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/l/ty/0.0.2.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/pyversions/ty/0.0.2.svg)](https://pypi.python.org/pypi/ty)
 [![Actions status](https://github.com/astral-sh/ty-pre-commit/workflows/main/badge.svg)](https://github.com/astral-sh/ty-pre-commit/actions)
 
 A [pre-commit](https://pre-commit.com/) hook for [Ty](https://github.com/astral-sh/ty), an extremely fast Python type checker written in Rust.
@@ -21,7 +21,7 @@ To run Ty's type checker via pre-commit, add the following to your `.pre-commit-
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.1a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.2a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
   hooks:
     # Run the type checker.
     - id: ty-check
@@ -33,7 +33,7 @@ To run Ty with additional arguments:
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.1a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.2a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
   hooks:
     # Run the type checker with verbose output.
     - id: ty-check
@@ -46,7 +46,7 @@ To run only on specific file types:
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.1a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.2a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
   hooks:
     # Run the type checker.
     - id: ty-check
