@@ -21,7 +21,7 @@ To run Ty's type checker via pre-commit, add the following to your `.pre-commit-
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.14a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.14
   hooks:
     # Run the type checker.
     - id: ty-check
@@ -33,7 +33,7 @@ To run Ty with additional arguments:
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.14a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.14
   hooks:
     # Run the type checker with verbose output.
     - id: ty-check
@@ -46,7 +46,7 @@ To run only on specific file types:
 repos:
 - repo: https://github.com/allganize/ty-pre-commit
   # Ty version.
-  rev: v0.0.14a35a34a33a32a31a30a29a28a27a26a25a24a23a22a21a20
+  rev: v0.0.14
   hooks:
     # Run the type checker.
     - id: ty-check
